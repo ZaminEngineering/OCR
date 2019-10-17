@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "GothamRoundedBook";
+  src: url(../assets/GothamRoundedBook_21018.ttf) format("truetype");
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+span{
+	font-family: "GothamRoundedBook", sans-serif;
+}
+
+body {
+    height: 93%;
+    width: 100%;
+    font-family: "GothamRoundedBook", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+    background-color: #062351;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+.dateinput{
+    padding: 2px;
+    width: 80px;
+    /*    font: 85% arial; */
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+    color: #47433F;
+    border-radius: 2px;
+    font-size: 11px;
+}
+.submit
+{
+  /* font: 85% arial; */
+  border: 0;
+  width: 80px;
+  height: 25px;
+  padding: 2px 0 3px 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 2px;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.allignmentcss{
+	text-align: center;
+}
+/* .allignmentcss > div {
+    margin-top: 5px;
+    
+} */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

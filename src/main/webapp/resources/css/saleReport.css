@@ -1,0 +1,133 @@
+.table-fixed thead {
+  width: 100%;
+}
+.table-fixed tbody {
+  max-height:calc(100vh - 278px);
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+  /* color:#000; */
+  font-family: 'Montserrat', sans-serif !important;
+}
+ .table-fixed thead > tr> th {
+ background-color: #337ab7;
+ color:#fff;
+}
+
+ details summary::-webkit-details-marker { display:none; }
+ .stockLift {
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.stockLift span {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #243a51;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    /* font-weight: 600; */
+    /* font-family: 'Montserrat', sans-serif !important; */
+}
+.stockLiftList span {
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+    /* color: #000; */
+}
+.datalist {
+  max-height:calc(100vh - 278px);
+  overflow-y: auto;
+  width: 100%;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+.filterArrow{
+  height: 17px;;
+  text-decoration: none;
+}
+a:hover { color: #DC4436 }
+a.sortDir.active {
+  color: #DC4436;
+  cursor: default;
+}
+ 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+p
+{ /* padding: 0 0 20px 0; */
+  line-height: 1.7em;}
+.buttonbackbg{
+	border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-orange {
+  color: orange;
+}
+
+.color-red {
+  color: red;
+}
+.totalval {
+    text-align: left;
+    border: solid 1px #000;
+    font-size: 12px;
+   /*  font-family: sans-serif; */
+    padding: 2px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}

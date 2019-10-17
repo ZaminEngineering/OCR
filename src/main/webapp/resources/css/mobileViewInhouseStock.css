@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "GothamRoundedBook";
+  src: url(../assets/GothamRoundedBook_21018.ttf) format("truetype");
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+span{
+	font-family: "GothamRoundedBook", sans-serif;
+}
+
+body {
+    height: 93%;
+    width: 100%;
+    font-family: "GothamRoundedBook", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.table-fixed thead {
+  width: 100%;
+}
+.table-fixed tbody {
+  max-height:calc(100vh - 278px);
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+  color:#000;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+ .table-fixed thead > tr> th {
+ background-color: #337ab7;
+ color:#fff;
+}
+
+ details summary::-webkit-details-marker { display:none; }
+ .stockLift {
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.stockLift span {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #062351;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.stockLiftList span {
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+    color: #000;
+}
+.datalist {
+ /* max-height:calc(100vh - 190px); */
+  overflow-y: auto;
+  width: 100%;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+.filterArrow{
+  height: 24px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+a:hover { color: #DC4436 }
+a.sortDir.active {
+  color: #DC4436;
+  cursor: default;
+}
+ .form-control {
+    display: inline;
+    width: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+@media (min-width: 1200px) {
+  .radioBtnProp {
+    float: right;margin: 10px 30px 0px 0px;
+  }
+}
+@media (min-width: 992px) {
+  .radioBtnProp {
+   margin: 10px 30px 0px 0px;
+  }
+}
+@media (min-width: 768px) {
+  .radioBtnProp {
+    margin: 10px 30px 0px 0px;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

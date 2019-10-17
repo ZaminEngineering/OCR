@@ -1,0 +1,197 @@
+.filter-icon{
+	color: #4285f4!important;
+	font-size: 30px;
+	float: right;
+	margin-right: 24px;
+}
+.btn-rounded {
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+
+/* css for switch btn */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 25px;
+  color:#fff;
+  margin-top: 10px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #243a51!important;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #243a51!important;
+  color: #fff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #243a51!important;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* css for switch btn */
+.whitebackground{
+  position: absolute;
+   /*  background: white; */
+    width: 100%;
+    height: 100%;
+	background-image: url("../images/wine_home.jpg");
+	width:100%;
+	 margin: 0px;
+    -moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+    /* opacity: 0.7; */
+}
+.inlineAchCss {
+font-size: 13px !important;
+}
+.inlineHeadrCss {
+font-size: 15px !important;
+}
+.achPadding{
+     padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+ .achPadding : hover{
+ color: #243a51 !important;
+ }
+.fade {
+    opacity: 1;
+}
+.containerGraphFluid {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.sn-bg-4 {
+    background-image: url("../images/wine_nav.jpg");
+}
+.homeModelHeader{
+	font-family: 'Michroma', sans-serif;
+    color: #243a51;
+    font-size: 21px;
+}
+select {
+    font-family: 'Montserrat', sans-serif;
+    display: block !important;
+    font-size: 12px !important;
+}
+.bodyFontCss{
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 12px !important;
+}
+label {
+     color: #000 !important;
+}
+.addNewBrandField input,select{
+	margin-bottom: 10px;
+}
+.ui-widget {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.2em;
+}
+.form-control {
+	font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.2rem !important;
+}
+/* table th,td {
+    font-size: 1.2rem !important;
+} */
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+    color: #243a51 !important;
+}
+.customizedButton{
+	padding-top:15px !important;
+	text-align: center !important;
+    padding-top: 15px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.shadowBoxCss{
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    transition: box-shadow 83ms;
+    border-radius: 2px;
+    background: #fff;
+    padding: 45px;
+	
+}
+.shadowBoxCssWithMinPadding {
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    transition: box-shadow 83ms;
+    border-radius: 2px;
+    background: #fff;
+    padding: 20px;
+}
+.filterDropdownCss{
+	width: 48%;
+    margin-right: 15px;
+}
+.filterLabelFontSize{
+	font-size: 12px !important;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}

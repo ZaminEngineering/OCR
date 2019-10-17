@@ -1,0 +1,36 @@
+.select2-container {
+    width: 100% !important;
+}
+
+.container {
+    max-width: 100%;
+}
+table{
+        width: 100%;
+        margin-bottom: 20px;
+		border-collapse: collapse;
+    }
+   /*  table, th, td{
+        border: 1px solid #cdcdcd;
+    } */
+    table th, table td{
+      padding: 5px;
+      text-align: left;
+      font-size: 11px;
+    }
+.evenrow{
+	background-color:#81DAF5!important;color:#424242;
+}
+
+.oddrow{
+	background-color:#E6E6E6!important;color:#424242;
+}
+[type=checkbox]:checked, [type=checkbox]:not(:checked) {
+    position: inherit;
+    opacity: 1;
+    pointer-events: visible;
+}
+#ttlmrp span{
+	padding: 0px 5px 0px 5px;
+	font-size: 14px;
+}

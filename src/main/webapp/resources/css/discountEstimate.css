@@ -1,0 +1,183 @@
+
+
+ table
+{ /* margin: 10px 0 30px 0; */
+        width: 100%;
+        /* margin-bottom: 20px; */
+		border-collapse: collapse;
+}
+
+table tr th, table tr td
+{
+  /* background: #062351; */
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;
+  }
+  
+table tr td
+{
+  /* background: #E5E5DB; */
+  color: #47433F;
+  border-top: 1px solid #e8e8e8;
+  }
+  .saledetailreport {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.saledetailreport td, .saledetailreport th {
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* .saledetailreport tr:nth-child(even){background-color: #f2f2f2;}
+
+.saledetailreport tr:hover {background-color: #ddd;}
+ */
+.saledetailreport th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #243a51;
+    color: white;
+}
+  .customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers td, .customers th {
+   /*  border: 1px solid #ddd; */
+    padding: 6px;
+    text-align: center;
+}
+.customers th{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color: #062351;
+    color: white;
+}
+.fixed_headers {
+    width: 1340px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.fixed_headers thead tr {
+    display: block;
+    position: relative;
+}
+.fixed_headers td:nth-child(2), .fixed_headers th:nth-child(2) {
+    min-width: 100px;
+    text-align: left;
+}
+.fixed_headers td:nth-child(1), .fixed_headers th:nth-child(1) {
+    min-width: 30px;
+    text-align: left;
+}
+
+  .fixed_headers td {
+    padding: 5px;
+    text-align: center;
+    min-width: 85px;
+}
+.fixed_headers th{
+     padding: 1px;
+    text-align: center;
+    min-width: 85px;
+} 
+.fixed_headers tbody {
+    display: block;
+    overflow: auto;
+    width: 1355px;
+    height: 400px;
+    font-size: 12px;
+}
+
+.totalval {
+    text-align: left;
+    border: solid 1px #000;
+    font-size: 13px;
+    font-family: sans-serif;
+    background: white;
+    color: black;
+    padding: 3px;
+}
+/* .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}  */
+
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 25px;
+  color:#fff;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #062351;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+select {
+    font-family: 'Montserrat', sans-serif;
+    display: block !important;
+    font-size: 12px !important;
+}
+.container{
+max-width: 100%;
+}
+[type=checkbox]:checked, [type=checkbox]:not(:checked) {
+    position: inherit;
+    opacity: 1;
+    pointer-events: all;
+}
